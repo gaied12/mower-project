@@ -12,7 +12,6 @@ import lombok.extern.slf4j.Slf4j;
  * @author oussama.gaied
  * @since 09/09/2023
  */
-@Slf4j
 public class Main {
 
 
