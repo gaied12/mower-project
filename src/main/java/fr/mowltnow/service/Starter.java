@@ -5,5 +5,5 @@ package fr.mowltnow.service;
  * @since 11/09/2023
  */
 public interface Starter {
-    public void start(String arg) ;
+   void start(String arg) ;
 }

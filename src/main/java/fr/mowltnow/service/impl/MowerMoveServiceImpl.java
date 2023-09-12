@@ -20,6 +20,7 @@ public class MowerMoveServiceImpl implements MowerMoveService {
      * @param maxY  The maximum Y-coordinate (height) of the lawn.
      * @return The updated Mower object after executing the commands.
      */
+    @Override
     public Mower moveMower(Mower mower, int maxX, int maxY) {
         for (Command command : mower.getMowerCommands()) {
             switch (command) {
